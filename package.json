@@ -1,0 +1,35 @@
+{
+  "name": "txt2beluga",
+  "version": "1.0.0",
+  "description": "Easily convert simple text files into full-fledged Beluga-style Discord conversation videos with a plethora of text formatting options, sound effects, and much more customisation for free within seconds!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discordjs",
+    "beluga",
+    "converter",
+    "generator"
+  ],
+  "author": "Binary Bytes",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "child_process": "^1.0.2",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0"
+  }
+}
